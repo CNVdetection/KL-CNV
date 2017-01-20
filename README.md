@@ -1,5 +1,5 @@
 # KL-CNV
-Kullback-Leibler divergence criterion in detecting the genome-wide Copy Number Variations
+Kullback-Leibler divergence criterion in detecting genome-wide Copy Number Variations
 By Seyed Amir Malekpour, Hamid Pezeshk and Mehdi Sadeghi
 
 
@@ -15,5 +15,5 @@ After defining the above matrices in MATLAB, the genome-wide deletions and dupli
 -	The average number of reads in each cluster that is identified by the k-means algorithm
 -	The maximum length of the CNVs which we aim to detect (in base pair)
 
-After running MAIN.m, genome-wide copy gain and copy loss regions which are called by KL-CNV will be shown in the MATLAB variable of “PREDICTION”. Each row of this matrix represents a different CNV call with its start position, end position and CNV type, in order. CNV types are encoded as follows:
+After running MAIN.m, genome-wide copy gain and copy loss regions which are called by KL-CNV will be shown in the MATLAB variable of “CNVs”. Each row of this matrix represents a different CNV call with its start position, end position and CNV type, in order. CNV types are encoded as follows:
 2 for a copy loss region, 3 for a copy gain region  
