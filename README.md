@@ -5,6 +5,7 @@ By Seyed Amir Malekpour, Hamid Pezeshk and Mehdi Sadeghi
 
 
 Input data to the KL-CNV are as follows:
+
 1-	Information relevant to the alignment of the mate pair reads from sample genome, after being aligned to the reference genome. This is a two column matrix in which each row represents the mapping position of the first read (in a mate pair read) on the reference genome and its insertion size. An example input matrix which is named Info_ Sample is in the attached dataset.
 
 2-	Information relevant to the alignment of the mate pair reads from reference genome, after being aligned to the reference genome. This is a two column matrix in which each row represents the mapping position of the first read (in a mate pair read) on the reference genome and its insertion size. An example input matrix which is named Info_Reference is in the attached dataset.
