@@ -1,6 +1,9 @@
 KL-CNV
+
 Kullback-Leibler divergence criterion in detecting genome-wide Copy Number Variations
+
 By Seyed Amir Malekpour, Hamid Pezeshk and Mehdi Sadeghi
+
 
 Input data to the KL-CNV are as follows:
 
